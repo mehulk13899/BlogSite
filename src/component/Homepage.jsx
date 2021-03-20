@@ -34,11 +34,11 @@ const Homepage = () => {
                 !isSignedIn ?
                     <div class='row justify-content-center'>
                         <div class="d-flex flex-column justify-content-between sub_container">
-                            <h1 class="p-2 mx-auto">Hello Welcome</h1>
+                            <h1 class="p-2 mx-auto">Hello Welcome to Mk Blog</h1>
                             <p class='p-2 mx-auto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, magni voluptates. Ut sequi quo quas error laudantium ipsum. Illum, accusamus.</p>
                             <div class="p-2 mx-auto ">
                                 <GoogleLogin
-                                    clientId="352336518081-37ukn5464r1r2dua180pcrkunggp755a.apps.googleusercontent.com"
+                                    clientId="782834813113-tpbtsqpclab10t07t8hra2i8ek5icv0s.apps.googleusercontent.com"
                                     render={renderProps => (
                                         <button class='btn btn-primary px-4 ' onClick={renderProps.onClick} disabled={renderProps.disabled}>Sign in With Google</button>
                                     )}
